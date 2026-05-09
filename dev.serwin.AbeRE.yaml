@@ -12,7 +12,6 @@ finish-args:
   - --socket=wayland
   - --socket=fallback-x11
   # Audio
-  - --filesystem=xdg-run/pipewire-0:ro
   - --socket=pulseaudio
   # Hardware acceleration
   - --device=dri
