@@ -25,6 +25,7 @@ modules:
       - type: git
         url: https://github.com/xyproto/tinyxxd
         tag: v1.3.7
+        commit: 1c5b1336725ea2d9751df39019fe2f22b0522553
     build-options:
       env:
         MAKEFLAGS: PREFIX=${FLATPAK_DEST} -j${FLATPAK_BUILDER_N_JOBS}
@@ -38,6 +39,7 @@ modules:
       - type: git
         url: https://git.sr.ht/~marcin-serwin/abe-re
         tag: z1
+        commit: 4d2a7aa4729d1eccf83e68202b6c96c2519310ce
     build-options:
       env:
         CC: cc
